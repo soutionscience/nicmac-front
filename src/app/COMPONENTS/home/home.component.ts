@@ -1,13 +1,22 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
+  providers:[NgbCarouselConfig]
 })
 export class HomeComponent implements OnInit {
+  showNavigationArrows = false;
+  showNavigationIndicators = false;
+  images =['../../../assets/images/slider-bg.jpg']
+  // images = [1055, 194, 368].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
-  constructor() { }
+  constructor(config: NgbCarouselConfig) { 
+    config.showNavigationArrows = true;
+    config.showNavigationIndicators = true;
+  }
 
   ngOnInit(): void {
   }
