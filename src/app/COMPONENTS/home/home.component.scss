@@ -79,7 +79,7 @@ body {
   /*header section*/
   .hero_area {
     position: relative;
-    min-height: 100vh;
+    min-height: 50vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -631,6 +631,8 @@ body {
   .about_section .detail-box a:hover {
     background-color: #fda100;
   }
+
+
   
   .sale_section {
     background-color: #f7f8f3;

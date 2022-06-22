@@ -10,7 +10,7 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 export class HomeComponent implements OnInit {
   showNavigationArrows = false;
   showNavigationIndicators = false;
-  images =['../../../assets/images/slider-bg.jpg']
+  images =['../../../assets/images/slider_2.jpg', '../../../assets/images/slider_3.jpg']
   // images = [1055, 194, 368].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
   constructor(config: NgbCarouselConfig) { 
