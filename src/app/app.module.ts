@@ -6,12 +6,20 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './COMPONENTS/home/home.component';
 import { PropertiesComponent } from './COMPONENTS/properties/properties.component';
+import { DisplayComponent } from './COMPONENTS/display/display.component';
+import { PlotsComponent } from './COMPONENTS/plots/plots.component';
+import { LocationComponent } from './PAGES/location/location.component';
+import { CarouselComponent } from './COMPONENTS/carousel/carousel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PropertiesComponent
+    PropertiesComponent,
+    DisplayComponent,
+    PlotsComponent,
+    LocationComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,33 @@
+.display{
+    margin:20px;
+    width: 100%;
+    // background-color:#002c3e;
+    padding-right: -200px;
+    margin-top: 10px;
+    
+}
+
+.display .story{
+    background-color:#002c3e;
+    color: white;
+    padding: 30px;
+    text-align: center;
+
+}
+.btn-box{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #fda100;
+    color: #ffffff;
+    border-radius: 0;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border: none;
+    min-width: 200px;
+}
+
+.row{
+    margin-bottom: 10px;
+    background-color:#002c3e;
+    padding: 8px;
+}
