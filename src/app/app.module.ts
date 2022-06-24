@@ -10,6 +10,11 @@ import { DisplayComponent } from './COMPONENTS/display/display.component';
 import { PlotsComponent } from './COMPONENTS/plots/plots.component';
 import { LocationComponent } from './PAGES/location/location.component';
 import { CarouselComponent } from './COMPONENTS/carousel/carousel.component';
+import { PropertiesDetailsComponent } from './PAGES/properties-details/properties-details.component';
+import { FeaturesComponent } from './COMPONENTS/features/features.component';
+import { ContactFormComponent } from './COMPONENTS/contact-form/contact-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,12 +24,17 @@ import { CarouselComponent } from './COMPONENTS/carousel/carousel.component';
     DisplayComponent,
     PlotsComponent,
     LocationComponent,
-    CarouselComponent
+    CarouselComponent,
+    PropertiesDetailsComponent,
+    FeaturesComponent,
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

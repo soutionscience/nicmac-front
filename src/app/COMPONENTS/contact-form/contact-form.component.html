@@ -1,0 +1,45 @@
+<div class="contact">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="titlepage">
+                <h2>Contact Us</h2>
+             </div>
+          </div>
+       </div>
+    </div>
+
+   
+    <div class="container-fluid">
+       <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+             <form class="main_form" [formGroup]="contactForm">
+                <div class="row">
+                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                      <input formControlName ="name"class="form-control" placeholder="Name" type="text" name="Name">
+                   </div>
+                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                      <input formControlName ="email"class="form-control" placeholder="Email" type="text" name="Email">
+                   </div>
+                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                      <input formControlName ="phone" class="form-control" placeholder="Phone" type="text" name="Phone">
+                   </div>
+                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                      <textarea formControlName ="comment" class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                   </div>
+                   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                      <button class="send" (click)="submit()">Send me</button>
+                   </div>
+                </div>
+             </form>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 padddd">
+             <div class="map_section">
+                <div id="logo">
+                    <img src="../../../assets/images/logo1.jpg" alt="">
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>

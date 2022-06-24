@@ -4,26 +4,24 @@
 <div class="intro">
     <div class="container">
             <div class="row">
-        <div class="col-md-6">
+        <div>
             <div class="story">
                 <!-- <div class="story_image">
                     <img src="../../../assets/images/acacia_tree.png" alt="" width="150px">
                 </div> -->
-               <h6> <i>Ewuaso  Kedong</i> </h6>
-               <p>Fast developing area Close dry port and the special economic zone , red soil, piped water and electricity nearby proximity to critical services – administration, schools</p>
-                <p>Beautiful scenary</p>
-                <p>Suitable for farming, development or speculation </p>
-                <p>40 minutes drive from Ngong town and boardering Kiambu County</p>
-                <P>All plots within 6KM radius from Ewuaso Kedong town </P>
+               <h2> <i> Why choose {{data.name}}</i> </h2>
+              <ul *ngFor="let item of points">
+                <li><p>{{item}}</p></li>
+              </ul>
             </div>
             
         </div>
-        <div class="col-md-6">
+        <!-- <div class="col-md-6">
             <div class="story_banner">
                 <img src="../../../assets/images/display_4.jpg" alt="">
             </div>
     
-        </div>
+        </div> -->
     </div>
 
     </div>
@@ -40,148 +38,44 @@
         <div class="container-fluid">
           <div class="heading_container">
             <h2>
-              Our properties - Ewuaso Kedong
+              Our properties -{{data.name}}
             </h2>
             <p>
-              We traverse the country to identify suitable real estate investment opportunities so you don’t have to
+              {{data.intro2}}
             </p>
           </div>
           <div class="row">
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4" *ngFor="let item of data.properties;  let i = index" [attr.data-index]="i">
               <div class="box">
                 <div class="img-box">
-                  <img src="../../../assets/images/land_one.jpg" alt="">
+                  <img src= {{item.land_image}} alt="">
                 </div>
                 <div class="detail-box">
                   <h6>
-                    Ewuaso  Kedong
+                    {{item.name}}
                   </h6>
+                  <div class="price_btn">
+                    <h4>KES <strong>350, 000</strong> </h4>
+                    <h5>Installments: <strong>375,000 </strong> <small>(6 months)</small></h5>
+                    <!-- <p class="installments">6 months installments</p> -->
+                  </div>
                   <p>
-                    -	Fast developing area Close dry port and the special economic zone , red soil, piped water and electricity nearby proximity to critical services – administration, schools
+                    {{item.intro}}
                   </p>
+                
                   <div class="btn-box">
-                    <a href="">
-                      Book now
+                    <a (click)="open(i)">
+                      View Details
                     </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="box">
-                <div class="img-box">
-                  <img src="../../../assets/images/land_2.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h6>
-                    Semitas Gardens 
-                  </h6>
-                  <p>
-                    700 M from the  tarmac – 
-                               newly tarmacked
-                                   Ngong - Suswa , greater Southern Bypass
-    
-                  </p>
-                  <div class="btn-box">
-                    <a href="">
-                      Book now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="box">
-                <div class="img-box">
-                  <img src="../../../assets/images/land_3.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h6>
-                    Aberani Gardens 
-                  </h6>
-                  <p>
-                    3.3 KM from  the tarmac –  newly tarmacked
-                    Ngong - Suswa , greater Southern Bypass
-                    
-                  </p>
-                  <div class="btn-box">
-                    <div class="btn-box">
-                        <a href="">
-                          Book now
-                        </a>
-                      </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="box">
-                <div class="img-box">
-                  <img src="../../../assets/images/land_4.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h6>
-                    Valesi Gardens 
-                  </h6>
-                  <p>
-                    On tarmac –  newly tarmacked
-                    Ngong - Suswa , greater Southern Bypass right on tarmac road (Greater Southern Bypass)
-                  </p>
-                  <div class="btn-box">
-                    <a href="">
-                      Book now
-                    </a>
-                  </div>
-                </div>
-              </div>
-    
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="box">
-                <div class="img-box">
-                  <img src="../../../assets/images/land_6.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h6>
-                    Terra Gardens 
-                  </h6>
-                  <p>
-                    1.8 KM from the newly tarmacked
-                    Ngong - Suswa , greater Southern Bypass right on tarmac road (Greater Southern Bypass)                
-                  </p>
-                  <div class="btn-box">
-                    <a href="">
-                      Book now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-              <div class="box">
-                <div class="img-box">
-                  <img src="../../../assets/images/land_5.jpg" alt="">
-                </div>
-                <div class="detail-box">
-                  <h6>
-                    Kiambu
-                  </h6>
-                  <p>
-                    Close proximity to Two Rivers Mall
-                     Easy accessibility and well developed infrasctructure. High growth areas
-    
-     
-                     Less than 15 KM from Nairobi CBD
-    
-                  </p>
-                  <div class="btn-box">
-                    <a href="">
-                      Book now
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+       
+         
+         
+           
+           
           </div>
           <!-- <div class="btn-box">
             <div class="btn-box">

@@ -2,7 +2,7 @@
     background-color:#002c3e ;
 }
 .intro{
-    margin-top: 20px;
+    margin-top: 2px;
     background-color: #ffffff;
     padding: 20px;
 }
@@ -1076,3 +1076,32 @@ body {
     color: inherit;
   }
   /*# sourceMappingURL=style.css.map */
+
+
+  .story h2{
+    text-align: center;
+  }
+
+  .story li {
+      list-style: none;
+      text-align: center;
+      line-height: 22px;
+  }
+
+  .price_btn{
+    background-color: #002c3e;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+ 
+  }
+
+  .price_btn p{
+    font-size: 25tp ;
+    line-height: 15px;
+
+  }
+   .price_btn .installments{
+    text-align: right;
+   }  
