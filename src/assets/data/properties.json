@@ -103,8 +103,9 @@
          "land_image": "../../../assets/images/veritas_1.png",
          "circular_images": [
            "../../../assets/images/veritas_circle_one.png",
-           "../../../assets/images/veritas_circle_two.png",
-           "../../../assets/images/veritas_price.png"
+           "../../../assets/images/veritas_price.png",
+           "../../../assets/images/veritas_circle_two.png"
+          
          ],
          "price": "2, 500, 0000",
          "installment": "2, 750, 000"

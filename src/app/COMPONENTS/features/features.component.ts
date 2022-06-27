@@ -23,10 +23,10 @@ export class FeaturesComponent implements OnInit {
     console.log("pero", this.parent, "with land", this.land)
     this.shamba = this.parent.properties[this.land]
     this.circle_1 = this.shamba.circular_images[0]
-    this.circle_2 = this.shamba.circular_images[2]
-    this.circle_3 = this.shamba.circular_images[3]
-    this.circle_4 = this.shamba.circular_images[4]
-    console.log("circle ", this.circle_1)
+    this.circle_2 = this.shamba.circular_images[1]
+    this.circle_3 = this.shamba.circular_images[2]
+    this.circle_4 = this.shamba.circular_images[3]
+    console.log("circle ", this.circle_3)
 
   }
 

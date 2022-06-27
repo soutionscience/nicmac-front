@@ -21,7 +21,7 @@ export class PropertyDisplayComponent implements OnInit {
   }
 
   open(i: number){
-    this.router.navigate(['/details',{ "my_id": Number, "location": this.location}])
+    this.router.navigate(['/details',{ "my_id": i, "location": this.location}])
 
   }
 
