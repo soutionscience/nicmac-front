@@ -6,6 +6,7 @@ import { HttpHeaders } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
+  uri = 'https://nicmac-server.herokuapp.com/messages'
   httpOptions = {
     headers: new HttpHeaders({
       'Content-Type':  'application/json',
@@ -14,12 +15,14 @@ export class ApiService {
   };
   
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {
+ 
+   }
 
 
   postMessage(message: any){
     console.log("hitting messages")
-    return this.http.post<any>('http://localhost:3000/messages', message, this.httpOptions)
+    return this.http.post<any>(this.uri, message, this.httpOptions)
  
 }
 }
