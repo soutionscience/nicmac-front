@@ -15,7 +15,8 @@ export class LocationComponent implements OnInit {
   points: any
 
   constructor(private route:ActivatedRoute, private router: Router) { 
-    this.Obj = this.route.snapshot.paramMap.get('my_object') || 0
+    this.Obj = this.route.snapshot.paramMap.get('my_object') || 0;
+    console.log("obj ", this.Obj)
     this.data = Properties[this.Obj]
     this.banner = "../../../assets/images/" + this.data.banner_image;
     this.points = this.data.points

@@ -42,17 +42,42 @@
   <div class="hero_area">
     <!-- header section strats -->
 <section>
-    <ngb-carousel *ngIf="images" [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
-        <ng-template ngbSlide *ngFor="let image of images">
-          <div class="picsum-img-wrapper">
-            <img [src]="image" alt="Random slide">
-          </div>
-          <div class="carousel-caption">
-            <h3>No mouse navigation</h3>
-            <p>This carousel hides navigation arrows and indicators.</p>
-          </div>
-        </ng-template>
-      </ngb-carousel>
+  <ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[0]" alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <div class="carousel_deal">
+          <h3>Veritas Homes Banana </h3>
+        <p>Deal of the month</p>
+        <a [routerLink]="" >Learn more</a>
+</div>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[1]" alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+        <div class="carousel_deal">
+          <h3>Semitas Garden</h3>
+        <p>Deal of the month  @ KES 350,000</p>
+        <a [routerLink]="" >Learn more</a>
+</div>
+        
+      </div>
+    </ng-template>
+    <!-- <ng-template ngbSlide ngIf="{{images[2]}}">
+      <div class="picsum-img-wrapper">
+        <img [src]="images[2]" alt="Random third slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template> -->
+  </ngb-carousel>
   </section>
     <!-- end slider section -->
   </div>
@@ -240,11 +265,13 @@
               </h2>
             </div>
             <p>
-              We are a real estate company whose main goal is to give our clients an opportunity to own and invest in property genuinely in an easy, convenient and affordable manner. We appreciate that land buying is a major investment decision and a lifetime goal for many people whose accomplishment is very satisfying. We also know that it can be a scary and risky venture if not done properly. That is why we consider ourselves partners to our clients in making their real estate investment dreams come true – from property identification, verification, purchase, titles processing and issuance.
+              We are a real estate company whose main goal is to give our clients an opportunity to own and invest in property genuinely in an easy, convenient and affordable manner. 
+        
+            That is why we consider ourselves partners to our clients in making their real estate investment dreams come true – from <strong>property identification , verification, purchase, titles processing and issuance.</strong>
             </p>
-            <a href="">
+            <!-- <a href="">
               Read More
-            </a>
+            </a> -->
           </div>
         </div>
         <div class="col-md-6 ">
@@ -262,7 +289,8 @@
 
   <app-display [story]="stories"></app-display>
   <!-- sale section -->
-
+<app-property-display [prop]="kiambuProperty" [_id]="kiambu_id"></app-property-display>
+<app-property-display [prop]="ewasoProperty" [_id]="ewaso_id"></app-property-display>
 
 
   <!-- end sale section -->

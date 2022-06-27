@@ -1,139 +1,140 @@
 [
    {
-      "_id":"62ac4c7337f98d4d9eb86ba5",
-      "name":"Ewuaso Kedong",
-      "intro":" Fast developing area Close dry port and the special economic zone , red soil, piped water and electricity nearby proximity to critical services administration, schools Beautiful scene Suitable for farming, development or speculation 40 minutes drive from Ngong town and boardering Kiambu County  All plots within 6KM radius from Ewuaso Kedong town ",
-       "points":["New Comesa hub", "40 minutes drive from Ngong town & at Intersection of 3 counties (Kiambu, Kajiado, Nakuru)",
-         "Suitable for your dream home, farming, development or speculation ",
-      "Fast developing area Close dry port and the special economic zone , red soil, piped water and electricity nearby proximity to critical services – administration, schools"],
-      "intro2":"All plots within 6KM radius from Ewuaso Kedong town ",
-      "banner_image":"../../../assets/images/ewuaso.png",
-      "slide1":"../../../assets/images/ewaso_slide2.png",
-      "slide2":"../../../assets/images/ewaso_slide3.png",
-      "properties":[
-         {
-            "_id:":3,
-            "name":"semitas gardens",
-            "intro":"700 M from the  tarmac newly tarmacked Ngong - Suswa , greater Southern Bypass",
-            "land_image":"../../../assets/images/semi_1.png",
-            "circular_images":[
-               "../../../assets/images/semi_circle_one.png",
-               "../../../assets/images/semi_circle_two.PNG",
-               "../../../assets/images/semitas_price.png"
-            ],
-            "price":"390, 0000",
-            "installment": "429, 000"
-         },
-         {
-           "_id:":3,
-           "name":"Aberani Gardens ",
-           "intro":"3.3 KM from  the tarmac  newly tarmacked Ngong - Suswa , greater Southern Bypass",
-           "land_image":"../../..//assets/images/abe_1.png",
-           "circular_images":[
-              "../../../assets/images/abe_circle_one.png",
-              "../../../assets/images/abe_circle_two.png",
-              "../../../assets/images/aberani_price.png"
-           ],
-           "price":"250, 0000",
-            "installment": "275, 000"
-        },
-        {
-           "_id:":3,
-           "name":"Valesi Gardens ",
-           "intro":"On tarmac newly tarmacked Ngong Suswa Rd , greater Southern Bypass right on tarmac road (Greater Southern Bypass) Next to Tatu city. 90% sold Touches the newly tarmacked road Ngong -Suswa rd.",
-           "land_image":"../../../assets/images/valesi_1.png",
-           "circular_images":[
-              "../../../assets/images/valesi_circle_one.png",
-              "../../../assets/images/valesi_circle_two.png",
-              "../../../assets/images/valesi_price.png"
-           ],
-           "price":"490, 0000",
-            "installment": "539, 000"
-        },
-        {
-           "_id:":3,
-           "name":"Terra Gardens Size I acres plots",
-           "intro":"1.8 KM from the newly tarmacked Ngong - Suswa , greater Southern Bypass right on tarmac road (Greater Southern Bypass)",
-           "land_image":"../../../assets/images/terra_1.png",
-           "circular_images":[
-              "../../../assets/images/terra_circle_one.png",
-              "../../../assets/images/terra_circle_two.png",
-              "../../../assets/images/terra_price.png"
-           ],
-           "price":"690, 0000",
-           "installment": "759, 000"
-        }
-      ]
+     "_id": "62ac4c7337f98d4d9eb86ba5",
+     "name": "Ewuaso Kedong",
+     "intro": " Fast developing area Close dry port and the special economic zone , red soil, piped water and electricity nearby proximity to critical services administration, schools Beautiful scene Suitable for farming, development or speculation 40 minutes drive from Ngong town and boardering Kiambu County  All plots within 6KM radius from Ewuaso Kedong town ",
+     "points": [
+       "New Comesa hub",
+       "40 minutes drive from Ngong town & at Intersection of 3 counties (Kiambu, Kajiado, Nakuru)",
+       "Suitable for your dream home, farming, development or speculation ",
+       "Fast developing area Close dry port and the special economic zone , red soil, piped water and electricity nearby proximity to critical services – administration, schools"
+     ],
+     "intro2": "All plots within 6KM radius from Ewuaso Kedong town ",
+     "banner_image": "../../../assets/images/ewuaso.png",
+     "slide1": "../../../assets/images/ewaso_slide2.png",
+     "slide2": "../../../assets/images/ewaso_slide3.png",
+     "properties": [
+       {
+         "_id:": 3,
+         "name": "semitas gardens",
+         "intro": "700 M from the  tarmac newly tarmacked Ngong - Suswa , greater Southern Bypass",
+         "land_image": "../../../assets/images/semi_1.png",
+         "circular_images": [
+           "../../../assets/images/semi_circle_one.png",
+           "../../../assets/images/semi_circle_two.PNG",
+           "../../../assets/images/semitas_price.png"
+         ],
+         "price": "390, 0000",
+         "installment": "429, 000"
+       },
+       {
+         "_id:": 3,
+         "name": "Aberani Gardens ",
+         "intro": "3.3 KM from  the tarmac  newly tarmacked Ngong - Suswa , greater Southern Bypass",
+         "land_image": "../../../assets/images/abe_1.png",
+         "circular_images": [
+           "../../../assets/images/abe_circle_one.png",
+           "../../../assets/images/abe_circle_two.png",
+           "../../../assets/images/aberani_price.png"
+         ],
+         "price": "250, 0000",
+         "installment": "275, 000"
+       },
+       {
+         "_id:": 3,
+         "name": "Valesi Gardens ",
+         "intro": "On tarmac newly tarmacked Ngong Suswa Rd , greater Southern Bypass right on tarmac road (Greater Southern Bypass) Next to Tatu city. 90% sold Touches the newly tarmacked road Ngong -Suswa rd.",
+         "land_image": "../../../assets/images/valesi_1.png",
+         "circular_images": [
+           "../../../assets/images/valesi_circle_one.png",
+           "../../../assets/images/valesi_circle_two.png",
+           "../../../assets/images/valesi_price.png"
+         ],
+         "price": "490, 0000",
+         "installment": "539, 000"
+       },
+       {
+         "_id:": 3,
+         "name": "Terra Gardens Size I acres plots",
+         "intro": "1.8 KM from the newly tarmacked Ngong - Suswa , greater Southern Bypass right on tarmac road (Greater Southern Bypass)",
+         "land_image": "../../../assets/images/terra_1.png",
+         "circular_images": [
+           "../../../assets/images/terra_circle_one.png",
+           "../../../assets/images/terra_circle_two.png",
+           "../../../assets/images/terra_price.png"
+         ],
+         "price": "690, 0000",
+         "installment": "759, 000"
+       }
+     ]
    },
    {
-       "_id":"62ac4c7337f98d4d9eb86ba5",
-       "name":"Kiambu",
-       "intro":"Our properties are in Ruaka, Banana, Kihara, Karuri  Served by all the major roads and by-passes. Close proximity to Two Rivers Mall Easy accessibility and well developed infrasctructure. High growth areas Less than 15 KM from Nairobi CBD",
-       "points":[
-         
-      "Close proximity to Two Rivers Mall",
-      "Served by all the major roads and by-passes.",
-      "Easy accessibility and well-developed infrastructure. High growth areas",
-      "Less than 15 KM from Nairobi CBD"
-
-       ],
-       "intro2":"Our properties are in Ruaka, Banana, Kihara, Karuri ",
-       "banner_image":"../../../assets/images/kiambu.png",
-       "slide1":"../../../ssets/images/kiambu_slide2.png",
-       "slide2":"../../../assets/images/kiambu_slide3.png",
-       "properties":[
-          {
-             "_id:":3,
-             "name":"Lapela Gardens Karura/ Kabete",
-             "intro":"Next to Kibiku police station 2 Km from Western Bypass (Gitaru – Ndenderu rd) Very close to Wangige market Easy connectivity to Water and electricity",
-             "land_image":"../../..//assets/images/lapela_1.png",
-             "circular_images":[
-                "../../../assets/images/lapela_circle_one.png",
-                "../../../assets/images/lapela_circle_two.png",
-                "../../../assets/images/lapela_price.png"
-             ],
-             "price":"2,000, 0000",
-             "installment": "2, 200, 000"
-          },
-          {
-           "_id:":3,
-           "name":"Veritas Homes Banana Deal of the month:",
-           "intro":"Suitable for gated community residential homes 7.6 KM from Ruaka Town 500 M from Muthurwa Girls Touches the tarmac road Water and Electricity available red soil",
-           "land_image":"../../../assets/images/veritas_1.png",
-           "circular_images":[
-              "../../../assets/images/veritas_circle_one.png",
-              "../../../assets/images/veritas_circle_two.png",
-              "../../../assets/images/veritas_price.png"
-           ],
-           "price":"2, 500, 0000",
-           "installment": "2, 750, 000"
-        },
-        {
-           "_id:":3,
-           "name":"Eloquim Gardens Kihara ",
-           "intro":"300 Mtrs from Karura Gachie Tarmac next to  Waka Academy Easy access from Western By pass (Gitaru – Ndenderu rd) 3 KM from Gachie shopping centre Water and Electricity available red soil",
-           "land_image":"../../../assets/images/eloquim_1.png",
-           "circular_images":[
-              "../../../assets/images/eloquim_circle_one.png",
-              "../../../assets/images/eloquim_circle_two.png",
-              "../../../assets/images/eloquim_price.png"
-           ],
-           "price":"2, 100, 0000",
-           "installment": "2, 310, 0000"
-        },
-        {
-           "_id:":3,
-           "name":"Peritas Kiambaa/ Ruaka",
-           "intro":"1Km from Limuru road Near Ruaka shopping centre Suitable for gated community residential homes  Electricity and water available for easy connection",
-           "land_image":"../../..//assets/images/peritas_1.png",
-           "circular_images":[
-              "../../../assets/images/peritas_circle_one.png",
-              "../../../assets/images/peritas_circle_two.png",
-              "../../../assets/images/peritas_price.png"
-           ],
-           "price":"2, 100, 0000",
-           "installment": "2, 310, 0000"
-        }
-       ]
-    }
-]
+     "_id": "62ac4c7337f98d4d9eb86ba5",
+     "name": "Kiambu",
+     "intro": "Our properties are in Ruaka, Banana, Kihara, Karuri  Served by all the major roads and by-passes. Close proximity to Two Rivers Mall Easy accessibility and well developed infrasctructure. High growth areas Less than 15 KM from Nairobi CBD",
+     "points": [
+       "Close proximity to Two Rivers Mall",
+       "Served by all the major roads and by-passes.",
+       "Easy accessibility and well-developed infrastructure. High growth areas",
+       "Less than 15 KM from Nairobi CBD"
+     ],
+     "intro2": "Our properties are in Ruaka, Banana, Kihara, Karuri ",
+     "banner_image": "../../../assets/images/kiambu.png",
+     "slide1": "../../../ssets/images/kiambu_slide2.png",
+     "slide2": "../../../assets/images/kiambu_slide3.png",
+     "properties": [
+       {
+         "_id:": 3,
+         "name": "Lapela Gardens Karura/ Kabete",
+         "intro": "Next to Kibiku police station 2 Km from Western Bypass (Gitaru – Ndenderu rd) Very close to Wangige market Easy connectivity to Water and electricity",
+         "land_image": "../../../assets/images/lapela_1.png",
+         "circular_images": [
+           "../../../assets/images/lapela_circle_one.png",
+           "../../../assets/images/lapela_circle_two.png",
+           "../../../assets/images/lapela_price.png"
+         ],
+         "price": "2,000, 0000",
+         "installment": "2, 200, 000"
+       },
+       {
+         "_id:": 3,
+         "name": "Veritas Homes Banana Deal of the month:",
+         "intro": "Suitable for gated community residential homes 7.6 KM from Ruaka Town 500 M from Muthurwa Girls Touches the tarmac road Water and Electricity available red soil",
+         "land_image": "../../../assets/images/veritas_1.png",
+         "circular_images": [
+           "../../../assets/images/veritas_circle_one.png",
+           "../../../assets/images/veritas_circle_two.png",
+           "../../../assets/images/veritas_price.png"
+         ],
+         "price": "2, 500, 0000",
+         "installment": "2, 750, 000"
+       },
+       {
+         "_id:": 3,
+         "name": "Eloquim Gardens Kihara ",
+         "intro": "300 Mtrs from Karura Gachie Tarmac next to  Waka Academy Easy access from Western By pass (Gitaru – Ndenderu rd) 3 KM from Gachie shopping centre Water and Electricity available red soil",
+         "land_image": "../../../assets/images/eloquim_1.png",
+         "circular_images": [
+           "../../../assets/images/eloquim_circle_one.png",
+           "../../../assets/images/eloquim_circle_two.png",
+           "../../../assets/images/eloquim_price.png"
+         ],
+         "price": "2, 100, 0000",
+         "installment": "2, 310, 0000"
+       },
+       {
+         "_id:": 3,
+         "name": "Peritas Kiambaa/ Ruaka",
+         "intro": "1Km from Limuru road Near Ruaka shopping centre Suitable for gated community residential homes  Electricity and water available for easy connection",
+         "land_image": "../../../assets/images/peritas_1.png",
+         "circular_images": [
+           "../../../assets/images/peritas_circle_one.png",
+           "../../../assets/images/peritas_circle_two.png",
+           "../../../assets/images/peritas_price.png"
+         ],
+         "price": "2, 100, 0000",
+         "installment": "2, 310, 0000"
+       }
+     ]
+   }
+ ]

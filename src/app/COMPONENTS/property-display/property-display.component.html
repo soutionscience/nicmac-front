@@ -1,0 +1,36 @@
+<div class="sale_section">
+    <div class="row">
+        <div class="col-sm-6 col-md-4" *ngFor="let item of data;  let i = index" [attr.data-index]="i">
+          <div class="box">
+            <div class="img-box">
+              <img src= {{item.land_image}} alt="">
+            </div>
+            <div class="detail-box">
+              <h6>
+                {{item.name}}
+              </h6>
+              <div class="price_btn">
+                <h4>KES <strong>{{item.price}}</strong> </h4>
+                <h5>Installments: <strong>{{item.installment}}</strong> <small>(6 months)</small></h5>
+                <!-- <p class="installments">6 months installments</p> -->
+              </div>
+              <p>
+                {{item.intro}}
+              </p>
+            
+              <div class="btn-box">
+                <a (click)="open(i)">
+                  View Details
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+     
+     
+       
+       
+      </div>
+
+</div>

@@ -15,6 +15,8 @@ import { FeaturesComponent } from './COMPONENTS/features/features.component';
 import { ContactFormComponent } from './COMPONENTS/contact-form/contact-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { PropertyDisplayComponent } from './COMPONENTS/property-display/property-display.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { HttpClientModule } from '@angular/common/http';
     CarouselComponent,
     PropertiesDetailsComponent,
     FeaturesComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    PropertyDisplayComponent
+
   ],
   imports: [
     BrowserModule,

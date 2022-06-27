@@ -1,3 +1,17 @@
+.location{
+    background-color:#002c3e ;
+}
+.intro{
+    margin-top: 2px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.plots{
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: #0c0c0c;
@@ -79,7 +93,7 @@ body {
   /*header section*/
   .hero_area {
     position: relative;
-    min-height: 50vh;
+    min-height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -631,8 +645,6 @@ body {
   .about_section .detail-box a:hover {
     background-color: #fda100;
   }
-
-
   
   .sale_section {
     background-color: #f7f8f3;
@@ -1066,7 +1078,34 @@ body {
   /*# sourceMappingURL=style.css.map */
 
 
-  .carousel_deal{
-    background-color: #002c3e;
-    padding:15px;
+  .story h2{
+    text-align: center;
   }
+
+  .story li {
+      list-style: none;
+      text-align: center;
+      line-height: 22px;
+  }
+
+  .price_btn{
+    background-color: #002c3e;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+ 
+  }
+
+  .price_btn p{
+    font-size: 25tp ;
+    line-height: 15px;
+
+  }
+   .price_btn .installments{
+    text-align: right;
+   }  
+
+  //  .row{
+  //   // background-color: #000000;
+  //  }

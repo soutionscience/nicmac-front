@@ -17,6 +17,7 @@ export class PropertiesDetailsComponent implements OnInit {
   constructor(private route: ActivatedRoute) { 
     this.location = this.route.snapshot.paramMap.get('location') || 0;
     this._id = this.route.snapshot.paramMap.get('my_id') || 0;
+    console.log("location ", this.location, " id ", this._id)
     console.log("working ", Properties[this.location])
    this.pero = Properties[this.location]
     
